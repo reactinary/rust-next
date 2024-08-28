@@ -1,32 +1,50 @@
 {
-  "name": "rust-next",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "@floating-ui/react-dom": "^2.1.1",
-    "@types/resize-observer-browser": "^0.1.11",
-    "aria-hidden": "^1.2.4",
-    "next": "14.2.7",
-    "react": "^18",
-    "react-dom": "^18",
-    "react-remove-scroll": "^2.5.10",
-    "tailwind-merge": "^2.5.2",
-    "tailwindcss-animate": "^1.0.7"
-  },
-  "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.7",
-    "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5"
-  }
+	"name": "rust-next",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@floating-ui/react-dom": "^2.1.1",
+		"@hookform/resolvers": "^3.3.4",
+		"@radix-ui/react-alert-dialog": "^1.1.1",
+		"@radix-ui/react-dialog": "^1.1.1",
+		"@tanstack/react-query": "5.28.8",
+		"@tanstack/react-query-devtools": "5.28.8",
+		"@tanstack/react-virtual": "^3.8.3",
+		"@types/resize-observer-browser": "^0.1.11",
+		"aria-hidden": "^1.2.4",
+		"axios": "^1.7.2",
+		"class-variance-authority": "^0.7.0",
+		"cmdk": "^1.0.0",
+		"date-fns": "^3.6.0",
+		"lucide-react": "^0.408.0",
+		"next": "14.2.5",
+		"next-themes": "^0.3.0",
+		"react": "^18",
+		"react-day-picker": "^8.10.1",
+		"react-dom": "^18",
+		"react-hook-form": "^7.51.0",
+		"react-remove-scroll": "^2.5.10",
+		"tailwind-merge": "^2.4.0",
+		"tailwindcss-animate": "^1.0.7",
+		"zod": "^3.23.8",
+		"zustand": "4.5.5"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.8.3",
+		"@tauri-apps/cli": "^1.6.0",
+		"@types/node": "^20",
+		"@types/react": "^18",
+		"@types/react-dom": "^18",
+		"eslint": "^8",
+		"eslint-config-next": "14.2.5",
+		"postcss": "^8",
+		"tailwindcss": "^3.4.1",
+		"typescript": "^5"
+	}
 }
